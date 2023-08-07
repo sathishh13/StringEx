@@ -1,0 +1,25 @@
+//count the no occurences of character in a string
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String str=sc.nextLine();
+		char ch=sc.next().charAt(0);
+		int count=0;
+		for(int i=0;i<str.length();i++){
+		    if(ch==str.charAt(i)){
+		        count++;
+		    }
+		}
+		System.out.println(count);
+		    
+		
+	}
+}
+
+
+Input : haveagoodday
+        a
+Output : 3
